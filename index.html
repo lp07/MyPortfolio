@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Lisa Patel | Personal Portfolio Website</title>
+    <link href="image/favicon.ico" type="image/x-icon" rel="ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/94a47dadcf.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>   
+<body>
+ <header class="header-area">
+        <!-- site-navbar start -->
+        <div class="navbar-area">
+          <div class="container">
+            <nav class="site-navbar">
+              <!-- site logo -->
+              <a href="#home" class="site-logo">Lisa.</a>
+      
+              <!-- site menu/nav -->
+              <ul>
+                <li><a href="#header"> Home</a></li>
+                <li><a href="#about"> About Me</a></li>
+                <li><a href="#certifications"> Certifications</a></li>
+                <li><a href="#projects"> Projects</a></li>
+                <li><a href="#contact"> Contact Me</a></li>
+              </ul>
+      
+              <!-- nav-toggler for mobile version only -->
+              <button class="nav-toggler">
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </div><!-- navbar-area end -->
+      </header>
+<!-- banner section-->
+ <div class="banner-section">
+          <div class="container">
+            <div class="header-text">
+                <h1><span>       Lisa</span> Patel</h1> <br>    <h3> "Aspiring Software Developer seeking opportunities to apply and enhance technical skills to contribute effectively to dynamic projects."</h3>
+				      <a href="image/Lisa_resume.pdf" download class="btn btn-download animate">Download CV</a>
+            </div>  
+          </div>
+        </div>
+<!--  end banner section-->
+<!-- about section-->
+<div id="about"> 
+    <div class="container">
+        <div class="row">  
+            <div class="about-col-1">  
+                <img src="image/profile.jpg">
+            </div>
+            <div class="about-col-2">
+                  <div class="container about-head">
+                <h1 class="sub-title">About Me</h1> 
+                <p class="paragraph"> A dedicated Computer Science student, I am actively seeking a challenging full-time position in software development, specilization in systems or web applications, With my strong technical skills and 
+                    passion for innovation. I am eager to apply my expertise to cotribute to cutting-edge projects and drive transformative solutions. <br>I thrive in dymanic environments, constantly seeking opportunities to learn 
+                    and grow while collaborating with talented teams.
+                    <br>
+
+                    "Let's connect and explore how I can make a meaningful impact through my technical proficiency 
+                    and unwavering commitment to excellence."</p>
+                </div>
+				<div class="container inner-tab">
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Master of Science in Computer Science</span>  <br>    California State University, Los Angeles, CA<br>(Jan 2022 - Dec 2023)<br>Relevant Coursework: Design and Analysis of Algorithms, Current Trends in Web Development, Advance Software Engineering, Advanced Artificial Intelligent, Topics in Data Science, Advance Topics in Operating Systems.</li>
+                        <li><span>Bachelor of Engineering in Computer Engineering</span><br>Gujarat Technological University, IN<br>(Aug 2016 - Aug 2020)<br>Relevant Coursework: Data Structures, Object-Oriented Programming, Database Management.</li>   
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Python, Javascript, CSS, HTML, Java, C++</li>
+                        <li><span>Frameworks/Libraries</span><br>Django, Scikit-learn, Matplotlib, Seaborn, YOLO, TensorFlow</li>
+                        <li><span>Database Systems</span><br>Pandas, NumPy, MySQL, PostgreSQL, MongoDB</li>
+                        <li><span>Tools and IDEs</span><br>VS Code, Pycharm, Git, AWS, MySQL Workbench, Jupyter</li>    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Student Assistant, Mathematics, Engineering, Science Achievement (MESA) program</span><br> Played a pivotal role in organizing annual STEM outreach events, leading a team of over 50 middle and 
+                            high school female students. Leveraging leadership skills, collaborated with 20+ industry speakers to 
+                            enrich students' understanding of real-world applications in STEM fields<br>
+                            Guided and motivated fellow students to ensure seamless event execution and project completion as a 
+                            team leader<br>
+                            Led advisor meetings, empowering mentors to effectively guide and support participating students 
+                            Utilized a data-driven approach, measured program success, leaving a lasting impact and inspiring the next generation of STEM innovators
+                        </li>
+                        <li><span>Student Assistant, Department of Computer Science, CSULA</span><br>Worked with Microsoft Applications and provided support to Dept.Coord/Chair, initial contact for students, faculty, and University Community
+                            <br>
+                        </li>
+                        <li><span>Software Develop Intern, AJ Group of Comapny, IN</span><br>Collaborated closely with a cross-functional team of developers to design and implement innovative features for the company's flagship product using Python and Django<br>
+                            Conducted comprehensive code reviews, proactively identifying and resolving areas for optimization, resulting in an impressive 25% improvement in application performance<br>
+                            Played a key role in the development of RESTful APIs, successfully integrating external services to enhance application functionalities and user experience<br> 
+                        </li>    
+                    </ul>
+                </div>
+				</div><!-- contaner end-->
+            </div>
+        </div>
+    </div>
+</div>   
+
+<!-- certificate-->
+<!-----Certifications-->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="certificates-list">
+
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>AWS Cloud Practitioner Essesntials</h2>
+                <p>Skills I have learned: 
+
+                    <br>
+                    <br>Cloud Computing Security, AWS Cloud, cloud networking, <br>
+                    Cloud Computing, Migration and Innovation<br>
+
+
+                    <h3><a href="image/Cloud Practitioner Essentials.pdf" target="_blank">View Certificate</a></h3>
+                </p> 
+                <!----<a href="#">Learn more</a> ----->  
+            </div>
+
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>AWS Cloud Technical Essentials</h2>
+                <p>Skills I have learned: 
+
+                    <br>
+                    <br>AWS identify and Access Management, Networking on AWS, AWS Management Console,<br>
+                    Cloud Computing, AWS Security<br>
+
+
+                    <h3><a href="image/AWS Cloud Technical Essentials.pdf" target="_blank">View Certificate</a></h3>
+                </p> 
+                <!----<a href="#">Learn more</a> ----->  
+            </div>
+
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>Architecting Solutions on AWS</h2>
+                <p>Skills I have learned: 
+
+                    <br>
+                    <br>Data Visualization (DataViz), AWS Account Management, Software Architecture, Data Analysis<br>
+
+                    <h3><a href="image/Architecting Solutions on AWS .pdf" target="_blank">View Certificate</a></h3>
+                </p> 
+                <!----<a href="#">Learn more</a> ----->  
+            </div>
+
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>Introduction to Designing Data Lakes on AWS</h2>
+                <p>Skills I have learned: 
+
+                    <br>
+                    <br>Data Lakes, Analytics, Big Data, Data Science, Amazon Web Services (AWS)<br>
+
+                    <h3><a href="image/Introduction to Designing Data Lakes on AWS.pdf" target="_blank">View Certificate</a></h3>
+                </p> 
+                <!----<a href="#">Learn more</a> ----->  
+            </div>
+
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>Exam Prep: AWS Certified Solutions Architect - Associate</h2>
+                <p>Skills I have learned: 
+
+                    <br>
+                    <br>AWS Cloud, Cloud Computing Security, Cloud Computing Architecture<br>
+
+                    <h3><a href="image/Exam Prep-AWS Certified Solutions Architect Associate.pdf" target="_blank">View Certificate</a></h3>
+                </p> 
+                <!----<a href="#">Learn more</a> ----->  
+            </div>
+
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>AWS Cloud Solutions Architect</h2>
+                <p>Skills I have learned: 
+
+                    <br>
+                    <br>AWS management Console, Cloud Architecture, Data Lakes, Architecting on AWS, AWS Certification Preparation<br>
+
+                    <h3><a href="image/AWS Cloud Solutions Architect.pdf" target="_blank">View Certificate</a></h3>
+                </p> 
+                <!----<a href="#">Learn more</a> ----->  
+            </div>
+            
+            <div>
+                <i class="fa-regular fa-display-code"></i>
+                <h2>Meta Back-End Development</h2>
+                <p>Skills I have learned: 
+                    
+                    <br>
+                    <br>Python Programming, Django (Web framework), <br> 
+                    Java Script, CSS, HTML, SQL, DBMS, Cloud Hosting, <br> 
+                    Application Interface (API), Linux, Bash (Unix Shell), <br>
+                    Build a data model, Design a web application, Debugging, <br>
+                    Design a web application, Authentication and authorization, <br>
+                    REST APIs, Filtering and ordering, Serializers and deserializer,<br> 
+                    Producation environments, API endpoints, Pseudocode, <br>
+                    Web Development, Algorithms, Communication, Data Structure.<br>
+
+
+                    <h3><a href="image/Cloud Practitioner Essentials.pdf" target="_blank">View Certificate</a></h3>
+
+                </p> 
+               <!---- <a href="#">Learn more</a>  ---> 
+            </div>
+        </div>
+
+    </div> </div>
+<!-- project section-->
+<!-----projects----->
+<div id ="projects">
+    <div class="container"> 
+        <h1 class="sub-title">Projects</h1>
+            <div class="projects list">
+                <div class="tab-contents" id="education">
+                    <div class="inner-project-list">
+
+                        <div class="list-1"><span style="margin-bottom: 10px;">NASA Minds - Object Detection System for Identifying Ice Cubes in Sand</span><br> Developed an advanced object detection system using MATLAB, integrating image processing and machine learning algorithms.<br>
+                            Leveraged machine learning techniques to accurately identify and classify ice cubes within sandy environments.<br> Utilized state-of-the-art image processing algorithms to enhance detection accuracy and reduce false positives. <br> Provided valuable data insights to aid other teams in making informed decisions during environmental assessments and resource management processes.</br>
+                        </div>
+
+                        <div class="list-2"><span>Find My Blood (Web Application) </span> <br> Designed and developed a user-friendly web application to efficiently assist people in finding blood donors in their vicinity.<br>
+                        Implemented advanced functionalities using Django (Backend + Framework), ensuring seamless communication between frontend and backend.<br>
+                        Utilized HTML, CSS, and JavaScript for creating an intuitive and responsive user interface.<br>
+                        Integrated Firebase as a real-time database to facilitate dynamic data updates and improve user experience. <br>
+                        Incorporated TensorFlow for a Machine Learning model to enhance donor matching based on compatibility and urgency.</br>
+
+                        <h3><a href="https://github.com/lp07/FindMyBlood.git" target="_blank">Link</a></h3>
+
+                        </div>
+
+                        <div class="list-3"><span>Walmart Sales Forecast</span><br> Developed a robust system to predict Walmart's weekly sales, enabling informed decision-making and resource allocation.<br>
+                        Leveraged Scikit-Learn (Decision Tree Regression) for precise sales forecasting based on historical data analysis.<br>
+                        Utilized NumPy and Pandas for data manipulation and preparation, ensuring the accuracy of predictions.<br>
+                        Visualized sales trends and patterns using Matplotlib and Seaborn to provide comprehensive insights to stakeholders.<br>
+                        Implemented Pickle to save and load trained models for efficient usage during forecasting. <br>
+                        Analyzed historic data to identify key factors influencing weekly store sales, such as holidays, temperature, unemployment, and fuel prices.</br>
+
+                        <h3><a href="https://github.com/lp07/WalmartSalesForecast.git" target="_blank">Link</a></h3>
+
+                        </div> 
+
+                        <div class="list-3"><span>Hand Gesture Environment</span><br> Created an innovative Raspberry Pi-MediaPipe system for real-time 3D hand gesture control in a dynamic virtual setting<br>
+                            Established UDP link between Raspberry Pi and laptop, enabling precise transmission of hand gesture data to the virtual world<br>
+                            Utilized MediaPipe's deep learning for precise hand gesture recognition, enhancing system accuracy<br>
+                            Mapped detected gestures to intuitive actions in the virtual environment, enabled immersive 3D hand entity interaction
+                            </br>
+
+                            <h3><a href="https://github.com/lp07/Hand_Gesture_Environment.git" target="_blank">Link</a></h3>
+
+                        </div>   
+                        
+                        <div class="list-3"><span>Node CLI Application</span><br> Created a Node.js based CLI app to retrieve extensive TV show data from APIs, enhancing user engagement<br>
+                            Improved efficiency with search history feature while ensuring scalability through effective dependency management<br>
+                            Implemented interactive user interface for seamless interaction, elevating overall user experience<br>
+                            Leveraged external APIs, Node.js, and NPM proficiency for a robust and feature-rich application
+                            </br>
+
+                            <h3><a href="https://github.com/lp07/Node-CLI-Application.git" target="_blank">Link</a></h3>
+
+                        </div>    
+                   
+                </div>
+            </div>    
+        </div>
+    </div>  </div>  
+<!-- contact sections-->
+
+<div id="contact" class="contact">
+    <div class="container">
+     <a href="mailto:lisa.ppatel08@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+16023419213"><i class="fa-solid fa-phone"></i></a>
+    <a href="https://www.linkedin.com/in/lisa-patel-00609b221/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+      <a href="https://github.com/lp07"><i class="fa-brands fa-github fa-lg"></i></a>
+</div>
+</div>	 
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class="highlight">
+      <p>© Lisa Patel. All Rights Reserved <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script>
+    // define all UI variable
+const navToggler = document.querySelector('.nav-toggler');
+const navMenu = document.querySelector('.site-navbar ul');
+const navLinks = document.querySelectorAll('.site-navbar a');
+
+// load all event listners
+allEventListners();
+
+// functions of all event listners
+function allEventListners() {
+  // toggler icon click event
+  navToggler.addEventListener('click', togglerClick);
+  // nav links click event
+  navLinks.forEach( elem => elem.addEventListener('click', navLinkClick));
+}
+
+// togglerClick function
+function togglerClick() {
+  navToggler.classList.toggle('toggler-open');
+  navMenu.classList.toggle('open');
+}
+
+// navLinkClick function
+function navLinkClick() {
+  if(navMenu.classList.contains('open')) {
+    navToggler.click();
+  }
+}
+    
+    var tablinks = document.getElementsByClassName("tab-links"); 
+    var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+const scriptURL = ''
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Thank you for contacting Me!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body> 
+</html>
